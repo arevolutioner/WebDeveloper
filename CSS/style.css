@@ -1,0 +1,37 @@
+/*Selector{
+	Property:value;
+}*/
+
+* {
+	text-align: right;
+}
+body {
+	background-image: url(c.jpg);
+}
+h2 {
+	color:#A7A1A6;
+	text-align: center;
+	border:5px solid rgba(160, 118, 150, 0.5);
+	cursor:pointer;
+}
+
+p {
+	color:pink;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext{
+	border:5px dashed green;
+}
+
+#div1 {
+	background: rgba(0,0,255, 0.2);
+}
+
+
+#div2 {
+	background: rgba(255,0,0, 0.2);
+}
