@@ -168,47 +168,47 @@
 
 // REFERENCE TYPE
 
-let object1 = {
-	value:10
-};
+// let object1 = {
+// 	value:10
+// };
 
-let object2 = object1;
+// let object2 = object1;
 
-let object3 ={
-	value : 18
-};
+// let object3 ={
+// 	value : 18
+// };
 
-// CONTEXT VS SCOPE
+// // CONTEXT VS SCOPE
 
-const object4={
-	a: function(){
-		console.log(this);
-	}
-}
+// const object4={
+// 	a: function(){
+// 		console.log(this);
+// 	}
+// }
 
-// INSTANTIATION - INHERITANCE
-class Player {
-	constructor(name, type) {
-		this.name = name;
-		this.type = type;
-	}
-	introduce() {
-		console.log(`Hi Iam ${this.name}, I'm a ${this.type}`)
-	}
+// // INSTANTIATION - INHERITANCE
+// class Player {
+// 	constructor(name, type) {
+// 		this.name = name;
+// 		this.type = type;
+// 	}
+// 	introduce() {
+// 		console.log(`Hi Iam ${this.name}, I'm a ${this.type}`)
+// 	}
 
-}
+// }
 
-class Wizard extends Player {
-	constructor(name, type) {
-		super(name, type)
-	}
-	play() {
-		console.log(`Wee I'm a ${this.type}`);
-	}
-}
+// class Wizard extends Player {
+// 	constructor(name, type) {
+// 		super(name, type)
+// 	}
+// 	play() {
+// 		console.log(`Wee I'm a ${this.type}`);
+// 	}
+// }
 
-const wizard1 = new Wizard('Shelly', 'Healer');
-const wizard2 = new Wizard('Shawn', 'From the dead walker')
+// const wizard1 = new Wizard('Shelly', 'Healer');
+// const wizard2 = new Wizard('Shawn', 'From the dead walker')
 
 
 
